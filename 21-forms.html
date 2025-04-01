@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form action="/server.net" method="get">
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname"> <br><br>
+
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname"> <br><br>
+
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username"> <br><br>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"> <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"> <br><br>
+
+            <label for="birthdate">Birth Date</label>
+            <input type="date" name="birthdate" id="birthdate"> <br><br>
+
+            <label for="student">Student</label>
+            <input type="checkbox" name="student" id="student"> <br><br>
+
+            <label for="man">Man</label>
+            <input type="radio" name="gender" id="man"> <br><br>
+
+            <label for="women">Women</label>
+            <input type="radio" name="gender" id="women"> <br><br>
+
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other"> <br><br>
+
+            <label for="passport">Passport</label>
+            <input type="file" name="passport" id="passport"> <br><br>
+            
+            <label for="exprience">Exprience</label>
+            <select name="exprience" id="exprience">
+                <option value="0">Exprience no yet</option>
+                <option value="1">About 1 year</option>
+                <option value="2">About more 2 years</option>
+            </select> <br><br>
+
+            <label for="aboutyourself">About Yourself</label> <br>
+            <textarea id="aboutyourself" name="aboutyourself" rows="12" cols="50"></textarea> <br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </body>
+</html>
