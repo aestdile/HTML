@@ -1,0 +1,21 @@
+.headings {
+    color: blue;
+    opacity: 0.95;
+    font-style: italic;
+}
+
+.paragraphs {
+    color:aqua;
+}
+
+#first {
+    color: blueviolet;
+}
+
+#second {
+    color: darkgreen;
+}
+
+#third {
+    color: deeppink;
+}
